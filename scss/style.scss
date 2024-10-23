@@ -1,0 +1,1357 @@
+@use "../partials/index" as * ;
+
+// ================== navbar section start =========================
+nav {
+    margin-top: 27px;
+    position: absolute !important;
+    width: 100%;
+
+    .navbar-collapse {
+        margin: 0 auto;
+        justify-content: center;
+
+        .navbar-nav .nav-item {
+            padding: 0 10px;
+
+            .nav-link {
+                @include heading($pop, 19px, 700, $black, 28px);
+
+                &:hover {
+                    @include heading($pop, 19px, 700, $orange, 28px);
+                    transition: .4s ease-in;
+                }
+            }
+        }
+    }
+
+    .btn {
+        @include button ($pop, 17px, 800, $white, $orange, 2px solid, $orange, 50px, 26px 68px, .4s ease-in);
+        &:hover {
+            color: $white;
+        }
+
+        i {
+            margin-right: 7px;
+        }
+    }
+}
+// ================== navbar section end =========================
+
+// ================== hero section start =========================
+.hero {
+    background-image: url(../images/hero-bg-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+
+    .hero-left {
+        display: block;
+
+        .details{
+            position: relative;
+            
+            .box {
+                display: flex;
+                background: $white;
+                border-radius: 50px;
+                position: absolute;
+                top: 600px;
+                left: 22%;
+                align-items: center;
+    
+                i {
+                    padding-left: 14px;
+                }
+    
+                .text {
+                    padding-left: 25px;
+                    padding-right: 49px;
+    
+                    h1 {
+                        @include heading($hee, 26px, 800, $black, 38.20px);
+                        padding-top: 10px;
+                    }
+    
+                    p {
+                        @include heading($rub, 17px, 800, $black, 20.15px);
+                        padding-bottom: 10px;
+                    }
+                }
+    
+            }
+        }
+
+        img {
+            position: absolute;
+            top: 158px;
+            display: block;
+        }
+
+       
+    }
+
+    .hero-right {
+        position: absolute;
+        top: 30%;
+        left: 44%;
+
+        h2 {
+            @include heading($rub, 32px, 400, $orange, 38px);
+            font-style: italic;
+        }
+
+        h1 {
+            @include heading($rub, 64px, 600, $black, 75.84px);
+            margin-top: 59px;
+            margin-bottom: 2px;
+        }
+
+        h3 {
+            @include heading($rub, 40px, 600, $black, 47px);
+            margin-bottom: 23px;
+        }
+
+        p {
+            @include heading($rub, 24px, 600, $black, 28.44px);
+            width: 547px;
+        }
+
+        .box {
+            display: flex;
+            align-items: baseline;
+
+            button {
+                @include button ($rub, 32px, 600, $orange, $transparent, 2px solid, $orange, 50px, 14px 19px, .4s ease-in);
+                margin-top: 68px;
+
+                &:hover {
+                    color: $white;
+                    background-color: $orange;
+                }
+            }
+
+            h1 {
+                @include heading($rub, 32px, 600, $black, 42.66px);
+                margin-left: 28px;
+                margin-right: 12px;
+            }
+
+            i {
+                margin-right: 15px;
+            }
+
+            .facebook-icon {
+                background-color: $transparent;
+                border: 3px solid $orange;
+                border-radius: 100%;
+                padding: 21px 6px;
+                color: $orange;
+                transition: .4s ease-in;
+               &:hover{
+                cursor: pointer;
+                color: $white;
+                background: $orange;
+               }
+            }
+
+            .linkedin-icon {
+                background-color: $transparent;
+                border: 3px solid $orange;
+                border-radius: 100%;
+                padding: 21px 6px;
+                color: $orange;
+                transition: .4s ease-in;
+                &:hover{
+                    cursor: pointer;
+                    color: $white;
+                    background: $orange;
+                   }
+            }
+
+            .twitter-icon {
+                background-color: $transparent;
+                border: 3px solid $orange;
+                border-radius: 100%;
+                padding: 21px 6px;
+                color: $orange;
+                transition: .4s ease-in;
+                &:hover{
+                    cursor: pointer;
+                    color: $white;
+                    background: $orange;
+                   }
+            }
+
+            .instagram-icon {
+                background-color: $transparent;
+                border: 3px solid $orange;
+                border-radius: 100%;
+                padding: 21px 6px;
+                color: $orange;
+                transition: .4s ease-in;
+                &:hover{
+                    cursor: pointer;
+                    color: $white;
+                    background: $orange;
+                   }
+            }
+        }
+    }
+
+}
+// ================== hero section end =========================
+
+// ================== service section start =========================
+.service{
+    margin-top: 15px;
+    margin-bottom: 90px;
+
+    .left{
+        h6{
+            @include heading($rub, 24px, 600, $orange, 28.44px);
+        }
+        h1{
+            @include heading($hee, 45px, 800, $black, 58px);
+            width: 555px;
+            margin-top: 28px;
+        }
+    }
+
+    .right{
+        position: relative;
+
+        p{
+            @include heading($rub, 17px, 400, $black, 26px);
+            position: absolute;
+            top: 68px;
+        }
+    }
+
+    .two{
+        margin-top: 106px;
+        row-gap: 106px;
+
+        .card{
+            background: $white;
+            box-shadow: 0px 0px 86px 63px #F9F9FB; /*offset-x offset-y blur-radius spread-radius color;*/
+            // width: 30%;
+            position: relative;
+    
+            .box{
+                position: relative;
+                background: $sea-green-light;
+                width: 95px;
+                height: 132px;
+                left: 75px;
+            }
+            .imgbox{
+                position: static;
+                margin-top: -50px;
+                margin-left: 25%;
+                transform: translate(-30%);
+                width: 150px;
+                height: 150px;
+                padding: 30px;
+                border-radius: 50%;
+                background: $sea-green;
+    
+                img{
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+    
+                    }
+            }
+            .textbox{
+                h2{
+                    @include heading($hee, 26px, 500, $black, 38px);
+                    margin-left: 70px;
+                    margin-top: 18px;
+                    margin-bottom: 18px;
+                }
+                p{
+                    @include heading($hee, 17px, 500, $black, 25px);
+                    margin-left: 70px;
+                    width: 280px;
+                    margin-bottom: 75px;
+                }
+            }
+            .anchorbox{
+                position: absolute;
+                bottom: 0;
+                left: 70px;
+                margin-bottom: 20px;
+                align-items: center;
+                .checkbox{
+                    width: 15px;
+                    height: 15px;
+                    background: $sea-green;
+                }
+                a{
+                    @include heading($hee, 17px, 800, $black, 25px);
+                    text-decoration: none;
+                    margin-left: 12px;
+                }
+            }
+        }
+        
+        .card:nth-child(2){
+                background: $white;
+                box-shadow: 0px 0px 86px 63px #F9F9FB; /*offset-x offset-y blur-radius spread-radius color;*/
+                // width: 30%;
+                position: relative;
+        
+                .box{
+                    position: relative;
+                    background: $orange-light;
+                    width: 95px;
+                    height: 132px;
+                    left: 75px;
+                }
+                .imgbox{
+                    position: static;
+                    margin-top: -50px;
+                    margin-left: 25%;
+                    transform: translate(-30%);
+                    width: 150px;
+                    height: 150px;
+                    padding: 30px;
+                    border-radius: 50%;
+                    background: $orange;
+        
+                    img{
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+        
+                        }
+                }
+                .textbox{
+                    h2{
+                        @include heading($hee, 26px, 500, $black, 38px);
+                        margin-left: 70px;
+                        margin-top: 18px;
+                        margin-bottom: 18px;
+                    }
+                    p{
+                        @include heading($hee, 17px, 500, $black, 25px);
+                        margin-left: 70px;
+                        width: 280px;
+                        margin-bottom: 75px;
+                    }
+                }
+                .anchorbox{
+                    position: absolute;
+                    bottom: 0;
+                    left: 70px;
+                    margin-bottom: 20px;
+                    align-items: center;
+                    .checkbox{
+                        width: 15px;
+                        height: 15px;
+                        background: $orange;
+                    }
+                    a{
+                        @include heading($hee, 17px, 800, $black, 25px);
+                        text-decoration: none;
+                        margin-left: 12px;
+                    }
+                }
+            }
+        
+        .card:nth-child(3){
+            background: $white;
+                box-shadow: 0px 0px 86px 63px #F9F9FB; /*offset-x offset-y blur-radius spread-radius color;*/
+                // width: 30%;
+                position: relative;
+        
+                .box{
+                    position: relative;
+                    background: $blue-light;
+                    opacity: 0.9;
+                    width: 95px;
+                    height: 132px;
+                    left: 75px;
+                }
+                .imgbox{
+                    position: static;
+                    margin-top: -50px;
+                    margin-left: 25%;
+                    transform: translate(-30%);
+                    width: 150px;
+                    height: 150px;
+                    padding: 30px;
+                    border-radius: 50%;
+                    background: $blue;
+        
+                    img{
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+        
+                        }
+                }
+                .textbox{
+                    h2{
+                        @include heading($hee, 26px, 500, $black, 38px);
+                        margin-left: 70px;
+                        margin-top: 18px;
+                        margin-bottom: 18px;
+                    }
+                    p{
+                        @include heading($hee, 17px, 500, $black, 25px);
+                        margin-left: 70px;
+                        width: 280px;
+                        margin-bottom: 75px;
+                    }
+                }
+                .anchorbox{
+                    position: absolute;
+                    bottom: 0;
+                    left: 70px;
+                    margin-bottom: 20px;
+                    align-items: center;
+                    .checkbox{
+                        width: 15px;
+                        height: 15px;
+                        background: $blue;
+                    }
+                    a{
+                        @include heading($hee, 17px, 800, $black, 25px);
+                        text-decoration: none;
+                        margin-left: 12px;
+                    }
+                }
+        }
+        .card:nth-child(4){
+            background: $white;
+                box-shadow: 0px 0px 86px 63px #F9F9FB; /*offset-x offset-y blur-radius spread-radius color;*/
+                // width: 30%;
+                position: relative;
+        
+                .box{
+                    position: relative;
+                    background: $goldenrod-light;
+                    width: 95px;
+                    height: 132px;
+                    left: 75px;
+                }
+                .imgbox{
+                    position: static;
+                    margin-top: -50px;
+                    margin-left: 25%;
+                    transform: translate(-30%);
+                    width: 150px;
+                    height: 150px;
+                    padding: 30px;
+                    border-radius: 50%;
+                    background: $goldenrod;
+        
+                    img{
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+        
+                        }
+                }
+                .textbox{
+                    h2{
+                        @include heading($hee, 26px, 500, $black, 38px);
+                        margin-left: 70px;
+                        margin-top: 18px;
+                        margin-bottom: 18px;
+                    }
+                    p{
+                        @include heading($hee, 17px, 500, $black, 25px);
+                        margin-left: 70px;
+                        width: 280px;
+                        margin-bottom: 75px;
+                    }
+                }
+                .anchorbox{
+                    position: absolute;
+                    bottom: 0;
+                    left: 70px;
+                    margin-bottom: 20px;
+                    align-items: center;
+                    .checkbox{
+                        width: 15px;
+                        height: 15px;
+                        background: $goldenrod;
+                    }
+                    a{
+                        @include heading($hee, 17px, 800, $black, 25px);
+                        text-decoration: none;
+                        margin-left: 12px;
+                    }
+                }
+        }
+        .card:nth-child(5){
+            background: $white;
+                box-shadow: 0px 0px 86px 63px #F9F9FB; /*offset-x offset-y blur-radius spread-radius color;*/
+                // width: 30%;
+                position: relative;
+        
+                .box{
+                    position: relative;
+                    background: $Caribbean-green-light;
+                    width: 95px;
+                    height: 132px;
+                    left: 75px;
+                }
+                .imgbox{
+                    position: static;
+                    margin-top: -50px;
+                    margin-left: 25%;
+                    transform: translate(-30%);
+                    width: 150px;
+                    height: 150px;
+                    padding: 30px;
+                    border-radius: 50%;
+                    background: $Caribbean-green;
+                    img{
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+        
+                        }
+                }
+                .textbox{
+                    h2{
+                        @include heading($hee, 26px, 500, $black, 38px);
+                        margin-left: 70px;
+                        margin-top: 18px;
+                        margin-bottom: 18px;
+                    }
+                    p{
+                        @include heading($hee, 17px, 500, $black, 25px);
+                        margin-left: 70px;
+                        width: 280px;
+                        margin-bottom: 75px;
+                    }
+                }
+                .anchorbox{
+                    position: absolute;
+                    bottom: 0;
+                    left: 70px;
+                    margin-bottom: 20px;
+                    align-items: center;
+                    .checkbox{
+                        width: 15px;
+                        height: 15px;
+                        background: $Caribbean-green;
+                    }
+                    a{
+                        @include heading($hee, 17px, 800, $black, 25px);
+                        text-decoration: none;
+                        margin-left: 12px;
+                    }
+                }
+        }
+        .card:nth-child(6){
+                background: $white;
+                box-shadow: 0px 0px 86px 63px #F9F9FB; /*offset-x offset-y blur-radius spread-radius color;*/
+                // width: 30%;
+                position: relative;
+        
+                .box{
+                    position: relative;
+                    background: $bright-cyan-light;
+                    width: 95px;
+                    height: 132px;
+                    left: 75px;
+                }
+                .imgbox{
+                    position: static;
+                    margin-top: -50px;
+                    margin-left: 25%;
+                    transform: translate(-30%);
+                    width: 150px;
+                    height: 150px;
+                    padding: 30px;
+                    border-radius: 50%;
+                    background: $bright-cyan;
+        
+                    img{
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+
+                    }
+                    #img6{
+                        filter: sepia(100%) hue-rotate(180deg) saturate(200%);
+                      
+                    }
+                }
+                .textbox{
+                    h2{
+                        @include heading($hee, 26px, 500, $black, 38px);
+                        margin-left: 70px;
+                        margin-top: 18px;
+                        margin-bottom: 18px;
+                    }
+                    p{
+                        @include heading($hee, 17px, 500, $black, 25px);
+                        margin-left: 70px;
+                        width: 280px;
+                        margin-bottom: 75px;
+                    }
+                }
+                .anchorbox{
+                    position: absolute;
+                    bottom: 0;
+                    left: 70px;
+                    margin-bottom: 20px;
+                    align-items: center;
+                    .checkbox{
+                        width: 15px;
+                        height: 15px;
+                        background: $bright-cyan;
+
+                    }
+                    a{
+                        @include heading($hee, 17px, 800, $black, 25px);
+                        text-decoration: none;
+                        margin-left: 12px;
+                    }
+                }
+        }
+    }
+}
+// ================== service section end ========================= 
+
+// ================== about section start ========================= 
+.about{
+    background-image: url(../images/about-me-bg.png);
+    position: relative;
+
+    #sekel {
+            position: absolute;
+            bottom: 5%;
+            left: 50%;
+            transform: translate(-50%);
+        }
+
+    .left{
+        margin-top: 78px;
+
+        h5{
+            @include heading($rub, 24px, 700, $orange, 28.44px);
+        }
+        h2{
+            @include heading($hee, 48px, 700, $black, 70px);
+            margin: 32px 0;
+        }
+        h1{
+            @include heading($rub, 36px, 700, $orange, 42px);
+            margin-bottom: 42px;
+        }
+
+        .details{
+            @include heading($rub, 17px, 700, $black, 20px);
+
+            .details-left{
+                h6{
+                    margin-top: 35px;
+                    margin-bottom: 35px;
+                }
+            }
+            .details-right{
+                h6{
+                    margin-top: 35px;
+                    margin-bottom: 35px;
+                }
+            }
+        }
+    }
+
+    .right{
+        margin-top: 92px;
+        margin-bottom: 45px;
+        z-index: 5;
+
+        img{
+            margin-bottom: 50px;
+        }
+
+        .heading-one{
+            position: relative;
+            left: 30%;
+
+            h1 {
+                @include heading($hee, 80px, 700, $orange, 117px);  
+                position: relative;
+                left: 75px;
+                margin-bottom: 0;
+                
+                .plus-icon{
+                    position: absolute;
+                    top: 8px;
+                    left: 63px;
+                }
+            }
+
+            h2 {
+                @include heading($hee, 80px, 700, $white, 117px);  
+                position: absolute;
+                top: 0;
+                left: 68px;
+                -webkit-text-stroke: 2px $orange;
+                margin-bottom: 0;
+
+
+                .plus-icon{
+                    position: absolute;
+                    top: 8px;
+                    left: 65px;
+                }
+
+            }
+    
+            h4{
+                @include heading($hee, 32px, 800, $black, 44px)
+            }
+        }
+    }
+    
+}
+// ================== about section end ========================= 
+
+// ================== dark-log section start ========================= 
+.dark-log{
+    margin-top: 73px;
+    margin-bottom: 138px;
+
+    .row{
+        text-align: center;
+
+        .bor{
+            border-bottom: 2px solid $silvar;
+            border-right: 2px solid $silvar;
+            padding: 76px 0;
+
+            img:hover{
+                filter: grayscale(100%) brightness(90%) contrast(100%);
+                cursor: pointer;
+            }
+        }
+
+        .bor:nth-child(4n) {
+            border-right: none;
+        }
+        .bor:nth-child(n+5) {
+            border-bottom: none;
+        }
+        
+    }
+}
+// ================== dark-log section end ========================= 
+
+// ================== education section start ========================= 
+.education{
+    margin-bottom: 101px;
+
+    .left{
+        margin-bottom: 41px;
+
+        h3{
+            @include heading($rub, 24px, 400, $orange, 26px);
+            margin-bottom: 60px;
+        }
+        h1{
+            @include heading($hee, 53px, 800, $black, 63px);
+        }
+    }
+    .right{
+        position: relative;
+
+        p{
+            @include heading($rub, 17px, 400, $black, 28px);
+            width: 515px;
+            position: absolute;
+            bottom: 30%;
+            right: 0;
+        }
+    }
+// ==================
+
+.left1{
+    position: relative;
+
+    #tree-retagel{
+        position: absolute;
+        top: 25px;
+        left: 0;
+        height: 285%;
+    }
+
+    .details{
+        margin-bottom: 15px;
+    }
+    .educationLeft {
+        padding: 40px 40px;
+        height: fit-content;
+        background: $orange;
+        border: 2px solid $orange;
+        border-radius: 50%;
+        position: relative;
+        margin-left: 80px;
+        display: inline-block;
+        margin-top: 15px;
+    
+        img {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    }
+    
+    .toper{
+        position: relative;
+        margin-left: 80px;
+
+        h5{
+            @include heading($hee, 25px, 700, $black, 58px);
+        }
+        a{
+            @include heading($rub, 14px, 700, $orange, 25px);
+            padding: 7px 20px;
+            text-decoration: none;
+            background: $orange-light;
+            border: 1px solid $orange;
+            border-radius: 50px;
+            align-self: center;
+            transition: .4s ease-in;
+            margin-left: 30px;
+            position: absolute;
+            top: 5px;
+            right: 100px;
+    
+            &:hover{
+                color: $white;
+                background: $orange;
+            }
+        }
+    }
+
+    p{
+        @include heading($hee, 17px, 700, $black, 25px);
+        width: 436px;
+        margin-left: 80px;
+        margin-bottom: 0;
+    }
+
+    .under{
+        margin-top: 30px;
+        margin-left: 80px;
+        position: relative;
+       i{
+        position: absolute;
+        top: 10px;
+        left: 0;
+       }
+        p{
+            @include heading($hee, 17px, 700, $orange, 25px);
+            margin-bottom: 0;
+        }
+    }
+}
+
+
+}
+// ================== education section end ========================= 
+
+// ================== skills section start ========================= 
+.skills{
+    margin-top: 101px;
+    margin-bottom: 140px;
+    
+    .one{
+        margin-bottom: 120px;
+
+    .left{
+        h3{
+            @include heading($rub, 24px, 600, $orange, 25px)
+        }
+        h1{
+            @include heading($hee, 48px, 500, $black, 54px);
+            margin-top: 37px;
+        }
+    }
+    .right{
+        position: relative;
+        p{
+            @include heading($hee, 17px, 500, $black, 28px);
+            width: 470px;
+            position: absolute;
+            bottom: 15%;
+            right: 0;
+        }
+    }
+}
+
+    .two{
+        row-gap: 56px;
+
+        h6{
+            @include heading($hee, 17px, 500, $black, 28px);
+            margin-bottom: 15px;
+        }
+
+    .line{
+        width: 100%;
+        height: 15px;
+        background:$grayish-light;
+        border-radius: 60px;
+
+        .parcentage1{
+            width: 60%;
+            height: 15px;
+            background: $orange;
+            border-radius: 60px;
+            position: relative;
+
+            i{
+                position: absolute;
+                bottom: 25px;
+                right: -10%;
+            }
+        
+            p{
+                @include heading($hee, 17px, 500, $white, 28px);
+                position: absolute;
+                top: -54px;
+                right: -25px;
+            }
+        }
+        .parcentage2{
+            width: 90%;
+            height: 15px;
+            background: $orange;
+            border-radius: 60px;
+            position: relative;
+
+            i{
+                position: absolute;
+                bottom: 22px;
+                right: -6%;
+            }
+        
+            p{
+                @include heading($hee, 17px, 500, $white, 28px);
+                position: absolute;
+                top: -50px;
+                right: -22px;
+            }
+        }
+        .parcentage3{
+            width: 75%;
+            height: 15px;
+            background: $orange;
+            border-radius: 60px;
+            position: relative;
+
+            i{
+                position: absolute;
+                bottom: 22px;
+                right: -8%;
+            }
+        
+            p{
+                @include heading($hee, 17px, 500, $white, 28px);
+                position: absolute;
+                top: -51px;
+                right: -24px;
+            }
+
+        }
+        .parcentage4{
+            width: 75%;
+            height: 15px;
+            background: $orange;
+            border-radius: 60px;
+            position: relative;
+
+            i{
+                position: absolute;
+                bottom: 22px;
+                right: -8%;
+            }
+        
+            p{
+                @include heading($hee, 17px, 500, $white, 28px);
+                position: absolute;
+                top: -50px;
+                right: -25px;
+            }
+        }
+        .parcentage5{
+            width: 90%;
+            height: 15px;
+            background: $orange;
+            border-radius: 60px;
+            position: relative;
+
+            i{
+                position: absolute;
+                bottom: 22px;
+                right: -7%;
+            }
+        
+            p{
+                @include heading($hee, 17px, 500, $white, 28px);
+                position: absolute;
+                top: -50px;
+                right: -26px;
+            }
+        }
+        .parcentage6{
+            width: 60%;
+            height: 15px;
+            background: $orange;
+            border-radius: 60px;
+            position: relative;
+
+            i{
+                position: absolute;
+                bottom: 22px;
+                right: -10%;
+            }
+        
+            p{
+                @include heading($hee, 17px, 500, $white, 28px);
+                position: absolute;
+                top: -50px;
+                right: -25px;
+            }
+        }
+    }
+    }
+
+}
+// ================== skills section end ========================= 
+
+// ================== quality section start ========================= 
+.quality{
+    background-image: url(../images/quality-bg-img.png);
+    padding-top: 100px;
+    padding-bottom: 95px;
+
+    .one{
+    .left{
+        h3{
+            @include heading($rub, 24px, 600, $orange, 25px);
+            margin-bottom: 31px;
+        }
+        h1{
+            @include heading($hee, 48px, 500, $black, 54px);
+            margin-top: 37px;
+        }
+
+        }
+
+        .right{
+            display: flex;
+            justify-content: end;
+            align-items: end;
+
+            p{
+                @include heading($hee, 17px, 500, $black, 28px);
+                width: 470px;
+            }
+        }
+    }
+
+    .two{
+        margin-bottom: 72px;
+
+        ul{
+            list-style: none;
+            display: flex;
+            column-gap: 60px;
+            justify-content: center;
+            margin-top: 60px;
+
+            li:nth-child(odd){
+                @include heading($rub, 18px,500, $black, 28px)
+
+            }
+            li:nth-child(even){
+                @include heading($rub, 18px,700, $black, 28px)
+
+            }
+            li{
+                transition: .4s ease-in;
+                &:hover{
+                    color: $orange;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+    .three{
+        row-gap: 70px;
+        .details{
+            display: flex;
+            justify-content: center;
+        }
+    }
+}
+
+// ================== quality section end ========================= 
+
+// ================== me section start ========================= 
+.me{
+    margin-top: 104px;
+    margin-bottom: 71px;
+    text-align: center;
+
+    .div{ 
+    h4{
+        @include heading($hee, 18px, 500, $orange, 28px);
+    }
+    h2{
+        @include heading($hee, 48px, 800, $black, 28px);
+        margin-top: 27px;
+        margin-bottom: 62px;
+    }
+    .fivestar{
+        display: flex;
+        column-gap: 18px;
+        justify-content: center;
+    }
+    .pra{
+        display: flex;
+        justify-content: center;
+        margin-top: 37px;
+        margin-bottom: 67px;
+
+        p{
+            @include heading($rub, 24px, 400, $black,32px);
+            width: 658px;
+        }
+    }
+    h3{
+        @include heading($rub, 24px, 800, $black, 32px);
+        margin-top: 21px;
+        margin-bottom: 5px;
+    }
+    p{
+        @include heading($rub, 16px, 400, $ash, 32px);
+    }
+    .minus{
+        i{
+            margin-left: 7px;
+            transition: .4s ease-in;
+
+            &:hover{
+                cursor: pointer;
+                background: $orange !important;
+            }
+        }
+    }
+}
+}
+// ================== me section end ========================= 
+// ================== work section start ========================= 
+.work{
+    background-image: url(../images/work-bg-img.png);
+    padding-top: 101px;
+    padding-bottom: 129px;
+
+    .left{
+        padding-bottom: 52px;
+
+        h3{
+            @include heading($rub, 24px, 600, $orange, 29px);
+        }
+        h2{
+            @include heading($hee, 48px, 500, $black, 70px);
+            margin-top: 32px;
+            margin-bottom: 16px;
+        }
+        p{
+            @include heading($hee, 17px, 500, $black, 28px);
+            width: 445px;
+            margin-bottom: 46px;
+        }
+        input{
+            @include heading($rub, 16px, 400, $transparent, 19px);
+            padding: 8px 80px 10px 20px;
+            border: none;
+            margin-bottom: 32px;
+            
+            &::placeholder{
+                color: $black;
+            }
+        }
+        .message{
+            padding: 22px 0  200px 25px;
+            margin-bottom: 42px;
+        }
+        button{
+            @include heading($rub, 24px, 700, $white, 29px);
+            background: $orange;
+            border: 2px solid $orange;
+            border-radius: 50px;
+            padding: 17px 40px 16px 44px;
+            transition: .4s ease-in;
+
+            &:hover{
+                color: $orange;
+                background: $transparent;
+            }
+        }
+    }
+
+        // -------------
+
+    .right{
+        position: relative;
+
+        .asdf{
+            position: absolute;
+            top: 10%;
+            left: 0;
+            row-gap: 96px;
+        }
+            .Left {
+                position: relative;
+                padding: 40px 40px;
+                height: fit-content;
+                background: $orange;
+                border: 2px solid $orange;
+                border-radius: 50%;
+                position: relative;
+                margin-left: 80px;
+                display: inline-block;
+                margin-top: 15px;
+            
+                img {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                }
+            }
+
+            h3{
+                @include heading($hee, 26px, 800, $black, 38px);
+                margin-bottom: 5px;
+            }
+            p{
+                @include heading($rub, 22px, 500, $black, 26px);
+                margin-bottom: 5px;
+            }
+        }
+        // -------------
+
+        .map{
+            text-align: center;
+        }
+    }
+// ================== work section end ========================= 
+// ================== updates section start ========================= 
+.updates{
+    margin-top: 100px;
+    margin-bottom: 51px;
+
+    .one{
+        margin-bottom: 59px;
+
+        .left{
+            h3{
+                @include heading($rub, 24px, 600, $orange, 28px);
+                margin-bottom: 23px;
+            }
+            h1{
+                @include heading($hee, 51px, 500, $black, 70px);
+            }
+        }
+        .right{
+            display: flex;
+            justify-content: end;
+            position: relative;
+
+            p{
+                @include heading($rub, 17px, 500, $black, 25px);
+                width: 500px;
+                position: absolute;
+                top: 30%;
+                right: 0;
+            }
+        }
+    }
+
+    .two{
+        justify-content: space-between;
+        
+        .custom-colum{
+            flex: 0 0 31%;       /* flex-grow:0, flex:-shrink:0, flex-basis:31% */
+            // max-width: 31%;
+            
+            .card{
+                .details{
+                    padding-left: 20px;
+                    padding-top: 26px;
+                    padding-bottom: 47px;
+    
+                    a{
+                        @include heading($rub, 14px, 600, $white, 16px);
+                        text-decoration: none;
+                        padding: 7px 27px;
+                        background: $orange;
+                    }
+                    h3{
+                        @include heading($hee, 26px, 800, $black, 36px);
+                        margin-top: 15px;
+                        margin-bottom: 21px;
+                    }
+                    p{
+                        @include heading($rub, 18px, 800, $black, 20px);
+                    }
+                }
+            }
+        }
+    }
+}
+// ================== updates section end ========================= 
+
+// ================== footer section start ========================= 
+.footer{
+    background-image: url(../images/footer-bg-img.png);
+
+    .left{
+        a{
+            @include heading($hee, 17px, 500, $black, 25px);
+            text-decoration: none;
+            padding-top: 56px;
+            padding-bottom: 55px;
+            padding-left: 40px;
+            display: inline-block;
+
+            span{
+              @include heading($hee, 17px, 500, $orange, 25px);
+            }
+        }
+    }
+
+    .right{
+        display: flex;
+
+        a{
+            @include heading($hee, 25px, 500, $black, 37px);
+            text-decoration: none;
+            display: inline-block;
+            padding-top: 55px;
+        }
+    }
+}
+// ================== footer section end ========================= 

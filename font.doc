@@ -1,0 +1,6 @@
+            sass --watch "scss/style.scss:compile/compile.css"
+
+
+
+            sass --watch "scss/responsive.scss:compile/responsive.css"
+ 

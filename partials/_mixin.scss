@@ -1,0 +1,59 @@
+
+// ========== heading
+@mixin heading($ff, $fs, $fw, $c, $lh){
+        font-family: $ff;
+        font-size: $fs;
+        font-weight: $fw;
+        color: $c;
+        line-height: $lh;
+}
+
+// ========== button
+@mixin button($ff, $fs, $fw, $c, $bgc, $b, $bc, $br, $p, $t) {
+        font-family: $ff;
+        font-size: $fs;
+        font-weight: $fw;
+        color: $c;
+        background-color: $bgc;
+        border: $b;
+        border-color: $bc;
+        border-radius: $br;
+        padding: $p;
+        transition: $t;
+}
+
+// ========responsive==============
+      
+@mixin responsive ($breakpoint){
+        @if $breakpoint == mobile {
+          @media (min-width:320px) and (max-width:574.99px){
+            @content;
+          }
+        }
+        @else if $breakpoint == sm {
+          @media (min-width:575px) and (max-width:767.99px){
+            @content;
+          }
+        }
+        @else if $breakpoint == md {
+          @media (min-width:768px) and (max-width:990.99px){
+            @content;
+          }
+        }
+        @else if $breakpoint == lg {
+          @media (min-width:991px) and (max-width:1199.99px){
+            @content;
+          }
+        }
+        @else if $breakpoint == xl {
+          @media (min-width:1200px) and (max-width:1399.99px){
+            @content;
+          }
+        }
+        @else if $breakpoint == xxl {
+          @media (min-width:1400px) and (max-width:1599.99px){
+            @content;
+          }
+        }
+      }
+      
