@@ -5,6 +5,7 @@ $breakpoint-md: 768px;
 $breakpoint-lg: 991px;
 $breakpoint-xl: 1200px;
 $breakpoint-xxl: 1400px;
+$breakpoint-xxxl: 1600px;
 
 // Responsive mixin with variable-based breakpoints
 @mixin responsive ($breakpoint){
@@ -35,6 +36,16 @@ $breakpoint-xxl: 1400px;
         }
         @else if $breakpoint == xxl {
           @media (min-width: #{$breakpoint-xxl}) and (max-width:1599.99px){
+            @content;
+          }
+        }
+        @else if $breakpoint == xxl {
+          @media (min-width: #{$breakpoint-xxl}) and (max-width:1599.99px){
+            @content;
+          }
+        }
+        @else if $breakpoint == xxxl {
+          @media (min-width: #{$breakpoint-xxxl}) and (max-width:1799.99px){
             @content;
           }
         }

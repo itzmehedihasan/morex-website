@@ -3333,5 +3333,424 @@
     color: rgb(238, 95, 56);
   }
 }
+@media (min-width: 1600px) and (max-width: 1799.99px) {
+  nav #logo {
+    width: 16%;
+  }
+  nav .btn {
+    padding: 26px 52px;
+  }
+  .hero .hero-left .details .box {
+    left: 8%;
+  }
+  .hero .hero-left .details .box i {
+    font-size: 45px;
+    padding-left: 20px;
+  }
+  .hero .hero-left .details .box .text h1 {
+    font-size: 28px;
+    padding-top: 12px;
+  }
+  .hero .hero-right {
+    top: 29%;
+  }
+  .hero .hero-right h3 {
+    margin-top: 8px;
+    margin-bottom: 25px;
+  }
+  .hero .hero-right .box h1 {
+    margin-left: 40px;
+    margin-right: 20px;
+  }
+  .service {
+    margin: 0;
+    padding: 50px 0;
+  }
+  .service .right p {
+    width: 585px;
+  }
+  .service .two {
+    margin-top: 50px;
+    row-gap: 30px;
+  }
+  .service .two .card {
+    width: 32%;
+    box-shadow: 0px 0px 0 0 #F9F9FB;
+  }
+  .service .two .card .box {
+    width: 60px;
+    left: 35px;
+  }
+  .service .two .card .imgbox {
+    width: 100px;
+    height: 100px;
+    margin-top: -90px;
+    margin-left: 12%;
+  }
+  .service .two .card .imgbox img {
+    width: 40%;
+  }
+  .service .two .card .textbox h2 {
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+  .service .two .card .textbox p {
+    margin-left: 20px;
+    width: 298px;
+    padding-bottom: 0;
+  }
+  .service .two .card .anchorbox {
+    left: 31px;
+  }
+  .service .two .card:nth-child(2) {
+    box-shadow: 0px 0px 0 0 #F9F9FB;
+  }
+  .service .two .card:nth-child(2) .box {
+    width: 60px;
+    left: 35px;
+  }
+  .service .two .card:nth-child(2) .imgbox {
+    width: 100px;
+    height: 100px;
+    margin-top: -90px;
+    margin-left: 12%;
+  }
+  .service .two .card:nth-child(2) .imgbox img {
+    width: 40%;
+  }
+  .service .two .card:nth-child(2) .textbox h2 {
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+  .service .two .card:nth-child(2) .textbox p {
+    margin-left: 20px;
+    width: 298px;
+    padding-bottom: 0;
+  }
+  .service .two .card:nth-child(2) .anchorbox {
+    left: 31px;
+  }
+  .service .two .card:nth-child(3) {
+    box-shadow: 0px 0px 0 0 #F9F9FB;
+  }
+  .service .two .card:nth-child(3) .box {
+    width: 60px;
+    left: 35px;
+  }
+  .service .two .card:nth-child(3) .imgbox {
+    width: 100px;
+    height: 100px;
+    margin-top: -90px;
+    margin-left: 12%;
+  }
+  .service .two .card:nth-child(3) .imgbox img {
+    width: 40%;
+  }
+  .service .two .card:nth-child(3) .textbox h2 {
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+  .service .two .card:nth-child(3) .textbox p {
+    margin-left: 20px;
+    width: 298px;
+    padding-bottom: 0;
+  }
+  .service .two .card:nth-child(3) .anchorbox {
+    left: 31px;
+  }
+  .service .two .card:nth-child(4) {
+    box-shadow: 0px 0px 0 0 #F9F9FB;
+  }
+  .service .two .card:nth-child(4) .box {
+    width: 60px;
+    left: 35px;
+  }
+  .service .two .card:nth-child(4) .imgbox {
+    width: 100px;
+    height: 100px;
+    margin-top: -90px;
+    margin-left: 12%;
+  }
+  .service .two .card:nth-child(4) .imgbox img {
+    width: 40%;
+  }
+  .service .two .card:nth-child(4) .textbox h2 {
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+  .service .two .card:nth-child(4) .textbox p {
+    margin-left: 20px;
+    width: 298px;
+    padding-bottom: 0;
+  }
+  .service .two .card:nth-child(4) .anchorbox {
+    left: 31px;
+  }
+  .service .two .card:nth-child(5) {
+    box-shadow: 0px 0px 0 0 #F9F9FB;
+  }
+  .service .two .card:nth-child(5) .box {
+    width: 60px;
+    left: 35px;
+  }
+  .service .two .card:nth-child(5) .imgbox {
+    width: 100px;
+    height: 100px;
+    margin-top: -90px;
+    margin-left: 12%;
+  }
+  .service .two .card:nth-child(5) .imgbox img {
+    width: 40%;
+  }
+  .service .two .card:nth-child(5) .textbox h2 {
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+  .service .two .card:nth-child(5) .textbox p {
+    margin-left: 20px;
+    width: 298px;
+    padding-bottom: 0;
+  }
+  .service .two .card:nth-child(5) .anchorbox {
+    left: 31px;
+  }
+  .service .two .card:nth-child(6) {
+    box-shadow: 0px 0px 0 0 #F9F9FB;
+  }
+  .service .two .card:nth-child(6) .box {
+    width: 60px;
+    left: 35px;
+  }
+  .service .two .card:nth-child(6) .imgbox {
+    width: 100px;
+    height: 100px;
+    margin-top: -90px;
+    margin-left: 12%;
+  }
+  .service .two .card:nth-child(6) .imgbox img {
+    width: 40%;
+  }
+  .service .two .card:nth-child(6) .textbox h2 {
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+  .service .two .card:nth-child(6) .textbox p {
+    margin-left: 20px;
+    width: 298px;
+    padding-bottom: 0;
+  }
+  .service .two .card:nth-child(6) .anchorbox {
+    left: 31px;
+  }
+  .about {
+    padding: 50px 0;
+  }
+  .about #sekel {
+    bottom: 10%;
+    left: 55%;
+  }
+  .about .left {
+    margin-top: 0;
+  }
+  .about .left h2 {
+    font-size: 52px;
+    margin: 25px 0;
+  }
+  .about .left h1 {
+    font-size: 30px;
+    line-height: 32px;
+    margin-bottom: 0px;
+  }
+  .about .left .details .details-left h6 {
+    font-size: 17px;
+    margin: 35px 0;
+  }
+  .about .right {
+    margin-top: 65px;
+  }
+  .about .right img {
+    margin-bottom: 0;
+    width: 72%;
+    margin-left: 45px;
+  }
+  .about .right .heading-one {
+    left: 35%;
+    top: 8%;
+  }
+  .dark-log {
+    margin: 0;
+    padding: 50px 0;
+  }
+  .education {
+    margin: 0;
+    padding: 50px 0;
+  }
+  .education .left h3 {
+    font-weight: 700;
+    margin-bottom: 30px;
+  }
+  .education .right p {
+    width: 576px;
+    left: 0;
+    top: 70px;
+  }
+  .education .two {
+    row-gap: 10px;
+  }
+  .education .left1 .under p {
+    margin-left: 30px;
+  }
+  .education .left1 .toper a {
+    right: 30px;
+  }
+  .skills {
+    margin: 0;
+    padding: 50px 0;
+  }
+  .skills .one {
+    margin-bottom: 50px;
+  }
+  .skills .one .left h1 {
+    font-weight: 800;
+    line-height: 60px;
+  }
+  .skills .one .right p {
+    width: 585px;
+    bottom: 23%;
+    left: 0;
+  }
+  .quality {
+    padding: 50px 0;
+  }
+  .quality .one .left h1 {
+    font-weight: 800;
+    line-height: 60px;
+    margin-top: 30px;
+  }
+  .quality .one .right {
+    position: relative;
+  }
+  .quality .one .right p {
+    position: absolute;
+    left: 0;
+    top: 65px;
+    width: 585px;
+  }
+  .quality .two {
+    margin-bottom: 60px;
+  }
+  .quality .two ul {
+    column-gap: 90px;
+  }
+  .quality .three {
+    row-gap: 30px;
+  }
+  .quality .three .details img {
+    width: 100%;
+  }
+  .me {
+    margin: 0;
+    padding: 50px 0;
+  }
+  .me .div h4 {
+    font-weight: 600;
+  }
+  .work {
+    padding: 50px 0;
+  }
+  .work .left h2 {
+    font-weight: 800;
+    line-height: 60px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+  }
+  .work .left p {
+    width: 585px;
+    margin-bottom: 50px;
+  }
+  .work .left .message {
+    padding: 15px 65% 25% 15px;
+  }
+  .work .right .asdf {
+    row-gap: 62px;
+  }
+  .work .right p {
+    font-weight: 400;
+    margin-bottom: 7px;
+  }
+  .work .right .Left img {
+    width: 45px;
+  }
+  .work .map img {
+    width: 98%;
+  }
+  .updates {
+    margin: 0;
+    padding: 50px 0;
+  }
+  .updates .one {
+    margin-bottom: 50px;
+  }
+  .updates .one .left h1 {
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 60px;
+    width: 500px;
+  }
+  .updates .one .right p {
+    font-weight: 400;
+    width: 585px;
+    top: 35%;
+    left: 0;
+  }
+  .updates .two .custom-colum {
+    flex: 0 0 33%;
+    /* flex-grow: 0, flex:-shrink:0, flex-basis:31%; */
+  }
+  .updates .two .custom-colum .card .details {
+    padding-left: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  .updates .two .custom-colum .card .details h3 {
+    font-size: 30px;
+    width: 348px;
+    margin-top: 20px;
+  }
+  .updates .two .custom-colum .card .details p {
+    font-size: 17px;
+    font-weight: 500;
+    width: 370px;
+  }
+  .footer .left a {
+    transition: 0.4s ease-in;
+    padding: 0;
+    margin: 50px 0 50px 70px;
+  }
+  .footer .left a span {
+    transition: 0.4s ease-in;
+  }
+  .footer .left a:hover {
+    color: rgb(238, 95, 56);
+  }
+  .footer .left a:hover span {
+    color: #000000;
+  }
+  .footer .right a {
+    font-size: 20px;
+    transition: 0.4s ease-in;
+    padding: 0;
+    margin: 50px 0;
+  }
+  .footer .right a:hover {
+    color: rgb(238, 95, 56);
+  }
+}
 
 /*# sourceMappingURL=responsive.css.map */
