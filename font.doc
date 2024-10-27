@@ -3,4 +3,6 @@
 
 
             sass --watch "scss/responsive.scss:compile/responsive.css"
+
+    		 boostrap/sass/responsive
  
