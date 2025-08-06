@@ -1,0 +1,1482 @@
+nav {
+  margin-top: 27px;
+  position: absolute !important;
+  width: 100%;
+}
+nav .navbar-collapse {
+  margin: 0 auto;
+  justify-content: center;
+}
+nav .navbar-collapse .navbar-nav .nav-item {
+  padding: 0 10px;
+}
+nav .navbar-collapse .navbar-nav .nav-item .nav-link {
+  font-family: "Poppins", sans-serif;
+  font-size: 19px;
+  font-weight: 700;
+  color: #000000;
+  line-height: 28px;
+}
+nav .navbar-collapse .navbar-nav .nav-item .nav-link:hover {
+  font-family: "Poppins", sans-serif;
+  font-size: 19px;
+  font-weight: 700;
+  color: rgb(238, 95, 56);
+  line-height: 28px;
+  transition: 0.4s ease-in;
+}
+nav .btn {
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  font-weight: 800;
+  color: rgb(255, 255, 255);
+  background-color: rgb(238, 95, 56);
+  border: 2px solid;
+  border-color: rgb(238, 95, 56);
+  border-radius: 50px;
+  padding: 26px 68px;
+  transition: 0.4s ease-in;
+}
+nav .btn:hover {
+  color: rgb(255, 255, 255);
+}
+nav .btn i {
+  margin-right: 7px;
+}
+
+.hero {
+  background-image: url(../images/hero-bg-img.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+}
+.hero .hero-left {
+  display: block;
+}
+.hero .hero-left .details {
+  position: relative;
+}
+.hero .hero-left .details .box {
+  display: flex;
+  background: rgb(255, 255, 255);
+  border-radius: 50px;
+  position: absolute;
+  top: 600px;
+  left: 22%;
+  align-items: center;
+}
+.hero .hero-left .details .box i {
+  padding-left: 14px;
+}
+.hero .hero-left .details .box .text {
+  padding-left: 25px;
+  padding-right: 49px;
+}
+.hero .hero-left .details .box .text h1 {
+  font-family: "Heebo", sans-serif;
+  font-size: 26px;
+  font-weight: 800;
+  color: #000000;
+  line-height: 38.2px;
+  padding-top: 10px;
+}
+.hero .hero-left .details .box .text p {
+  font-family: "Rubik", sans-serif;
+  font-size: 17px;
+  font-weight: 800;
+  color: #000000;
+  line-height: 20.15px;
+  padding-bottom: 10px;
+}
+.hero .hero-left img {
+  position: absolute;
+  top: 158px;
+  display: block;
+}
+.hero .hero-right {
+  position: absolute;
+  top: 30%;
+  left: 44%;
+}
+.hero .hero-right h2 {
+  font-family: "Rubik", sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  color: rgb(238, 95, 56);
+  line-height: 38px;
+  font-style: italic;
+}
+.hero .hero-right h1 {
+  font-family: "Rubik", sans-serif;
+  font-size: 64px;
+  font-weight: 600;
+  color: #000000;
+  line-height: 75.84px;
+  margin-top: 59px;
+  margin-bottom: 2px;
+}
+.hero .hero-right h3 {
+  font-family: "Rubik", sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  color: #000000;
+  line-height: 47px;
+  margin-bottom: 23px;
+}
+.hero .hero-right p {
+  font-family: "Rubik", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  color: #000000;
+  line-height: 28.44px;
+  width: 547px;
+}
+.hero .hero-right .box {
+  display: flex;
+  align-items: baseline;
+}
+.hero .hero-right .box button {
+  font-family: "Rubik", sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  color: rgb(238, 95, 56);
+  background-color: rgba(0, 0, 0, 0);
+  border: 2px solid;
+  border-color: rgb(238, 95, 56);
+  border-radius: 50px;
+  padding: 14px 19px;
+  transition: 0.4s ease-in;
+  margin-top: 68px;
+}
+.hero .hero-right .box button:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(238, 95, 56);
+}
+.hero .hero-right .box h1 {
+  font-family: "Rubik", sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  color: #000000;
+  line-height: 42.66px;
+  margin-left: 28px;
+  margin-right: 12px;
+}
+.hero .hero-right .box i {
+  margin-right: 15px;
+}
+.hero .hero-right .box .facebook-icon {
+  background-color: rgba(0, 0, 0, 0);
+  border: 3px solid rgb(238, 95, 56);
+  border-radius: 100%;
+  padding: 21px 6px;
+  color: rgb(238, 95, 56);
+  transition: 0.4s ease-in;
+}
+.hero .hero-right .box .facebook-icon:hover {
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  background: rgb(238, 95, 56);
+}
+.hero .hero-right .box .linkedin-icon {
+  background-color: rgba(0, 0, 0, 0);
+  border: 3px solid rgb(238, 95, 56);
+  border-radius: 100%;
+  padding: 21px 6px;
+  color: rgb(238, 95, 56);
+  transition: 0.4s ease-in;
+}
+.hero .hero-right .box .linkedin-icon:hover {
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  background: rgb(238, 95, 56);
+}
+.hero .hero-right .box .twitter-icon {
+  background-color: rgba(0, 0, 0, 0);
+  border: 3px solid rgb(238, 95, 56);
+  border-radius: 100%;
+  padding: 21px 6px;
+  color: rgb(238, 95, 56);
+  transition: 0.4s ease-in;
+}
+.hero .hero-right .box .twitter-icon:hover {
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  background: rgb(238, 95, 56);
+}
+.hero .hero-right .box .instagram-icon {
+  background-color: rgba(0, 0, 0, 0);
+  border: 3px solid rgb(238, 95, 56);
+  border-radius: 100%;
+  padding: 21px 6px;
+  color: rgb(238, 95, 56);
+  transition: 0.4s ease-in;
+}
+.hero .hero-right .box .instagram-icon:hover {
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  background: rgb(238, 95, 56);
+}
+
+.service {
+  margin-top: 15px;
+  margin-bottom: 90px;
+}
+.service .left h6 {
+  font-family: "Rubik", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  color: rgb(238, 95, 56);
+  line-height: 28.44px;
+}
+.service .left h1 {
+  font-family: "Heebo", sans-serif;
+  font-size: 45px;
+  font-weight: 800;
+  color: #000000;
+  line-height: 58px;
+  width: 555px;
+  margin-top: 28px;
+}
+.service .right {
+  position: relative;
+}
+.service .right p {
+  font-family: "Rubik", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  color: #000000;
+  line-height: 26px;
+  position: absolute;
+  top: 68px;
+}
+.service .two {
+  margin-top: 106px;
+  row-gap: 106px;
+}
+.service .two .card {
+  background: rgb(255, 255, 255);
+  box-shadow: 0px 0px 86px 63px #F9F9FB; /*offset-x offset-y blur-radius spread-radius color;*/
+  position: relative;
+}
+.service .two .card .box {
+  position: relative;
+  background: #DCF6ED;
+  width: 95px;
+  height: 132px;
+  left: 75px;
+}
+.service .two .card .imgbox {
+  position: static;
+  margin-top: -50px;
+  margin-left: 25%;
+  transform: translate(-30%);
+  width: 150px;
+  height: 150px;
+  padding: 30px;
+  border-radius: 50%;
+  background: #48CDA0;
+}
+.service .two .card .imgbox img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.service .two .card .textbox h2 {
+  font-family: "Heebo", sans-serif;
+  font-size: 26px;
+  font-weight: 500;
+  color: #000000;
+  line-height: 38px;
+  margin-left: 70px;
+  margin-top: 18px;
+  margin-bottom: 18px;
+}
+.service .two .card .textbox p {
+  font-family: "Heebo", sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  color: #000000;
+  line-height: 25px;
+  margin-left: 70px;
+  width: 280px;
+  margin-bottom: 75px;
+}
+.service .two .card .anchorbox {
+  position: absolute;
+  bottom: 0;
+  left: 70px;
+  margin-bottom: 20px;
+  align-items: center;
+}
+.service .two .card .anchorbox .checkbox {
+  width: 15px;
+  height: 15px;
+  background: #48CDA0;
+}
+.service .two .card .anchorbox a {
+  font-family: "Heebo", sans-serif;
+  font-size: 17px;
+  font-weight: 800;
+  color: #000000;
+  line-height: 25px;
+  text-decoration: none;
+  margin-left: 12px;
+}
+.service .two .card:nth-child(2) {
+  background: rgb(255, 255, 255);
+  box-shadow: 0px 0px 86px 63px #F9F9FB; /*offset-x offset-y blur-radius spread-radius color;*/
+  position: relative;
+}
+.service .two .card:nth-child(2) .box {
+  position: relative;
+  background: #FCE5DF;
+  width: 95px;
+  height: 132px;
+  left: 75px;
+}
+.service .two .card:nth-child(2) .imgbox {
+  position: static;
+  margin-top: -50px;
+  margin-left: 25%;
+  transform: translate(-30%);
+  width: 150px;
+  height: 150px;
+  padding: 30px;
+  border-radius: 50%;
+  background: rgb(238, 95, 56);
+}
+.service .two .card:nth-child(2) .imgbox img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.service .two .card:nth-child(2) .textbox h2 {
+  font-family: "Heebo", sans-serif;
+  font-size: 26px;
+  font-weight: 500;
+  color: #000000;
+  line-height: 38px;
+  margin-left: 70px;
+  margin-top: 18px;
+  margin-bottom: 18px;
+}
+.service .two .card:nth-child(2) .textbox p {
+  font-family: "Heebo", sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  color: #000000;
+  line-height: 25px;
+  margin-left: 70px;
+  width: 280px;
+  margin-bottom: 75px;
+}
+.service .two .card:nth-child(2) .anchorbox {
+  position: absolute;
+  bottom: 0;
+  left: 70px;
+  margin-bottom: 20px;
+  align-items: center;
+}
+.service .two .card:nth-child(2) .anchorbox .checkbox {
+  width: 15px;
+  height: 15px;
+  background: rgb(238, 95, 56);
+}
+.service .two .card:nth-child(2) .anchorbox a {
+  font-family: "Heebo", sans-serif;
+  font-size: 17px;
+  font-weight: 800;
+  color: #000000;
+  line-height: 25px;
+  text-decoration: none;
+  margin-left: 12px;
+}
+.service .two .card:nth-child(3) {
+  background: rgb(255, 255, 255);
+  box-shadow: 0px 0px 86px 63px #F9F9FB; /*offset-x offset-y blur-radius spread-radius color;*/
+  position: relative;
+}
+.service .two .card:nth-child(3) .box {
+  position: relative;
+  background: #8ac0f6;
+  opacity: 0.9;
+  width: 95px;
+  height: 132px;
+  left: 75px;
+}
+.service .two .card:nth-child(3) .imgbox {
+  position: static;
+  margin-top: -50px;
+  margin-left: 25%;
+  transform: translate(-30%);
+  width: 150px;
+  height: 150px;
+  padding: 30px;
+  border-radius: 50%;
+  background: #007EFF;
+}
+.service .two .card:nth-child(3) .imgbox img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.service .two .card:nth-child(3) .textbox h2 {
+  font-family: "Heebo", sans-serif;
+  font-size: 26px;
+  font-weight: 500;
+  color: #000000;
+  line-height: 38px;
+  margin-left: 70px;
+  margin-top: 18px;
+  margin-bottom: 18px;
+}
+.service .two .card:nth-child(3) .textbox p {
+  font-family: "Heebo", sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  color: #000000;
+  line-height: 25px;
+  margin-left: 70px;
+  width: 280px;
+  margin-bottom: 75px;
+}
+.service .two .card:nth-child(3) .anchorbox {
+  position: absolute;
+  bottom: 0;
+  left: 70px;
+  margin-bottom: 20px;
+  align-items: center;
+}
+.service .two .card:nth-child(3) .anchorbox .checkbox {
+  width: 15px;
+  height: 15px;
+  background: #007EFF;
+}
+.service .two .card:nth-child(3) .anchorbox a {
+  font-family: "Heebo", sans-serif;
+  font-size: 17px;
+  font-weight: 800;
+  color: #000000;
+  line-height: 25px;
+  text-decoration: none;
+  margin-left: 12px;
+}
+.service .two .card:nth-child(4) {
+  background: rgb(255, 255, 255);
+  box-shadow: 0px 0px 86px 63px #F9F9FB; /*offset-x offset-y blur-radius spread-radius color;*/
+  position: relative;
+}
+.service .two .card:nth-child(4) .box {
+  position: relative;
+  background: #f7e188;
+  width: 95px;
+  height: 132px;
+  left: 75px;
+}
+.service .two .card:nth-child(4) .imgbox {
+  position: static;
+  margin-top: -50px;
+  margin-left: 25%;
+  transform: translate(-30%);
+  width: 150px;
+  height: 150px;
+  padding: 30px;
+  border-radius: 50%;
+  background: #E6BC13;
+}
+.service .two .card:nth-child(4) .imgbox img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.service .two .card:nth-child(4) .textbox h2 {
+  font-family: "Heebo", sans-serif;
+  font-size: 26px;
+  font-weight: 500;
+  color: #000000;
+  line-height: 38px;
+  margin-left: 70px;
+  margin-top: 18px;
+  margin-bottom: 18px;
+}
+.service .two .card:nth-child(4) .textbox p {
+  font-family: "Heebo", sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  color: #000000;
+  line-height: 25px;
+  margin-left: 70px;
+  width: 280px;
+  margin-bottom: 75px;
+}
+.service .two .card:nth-child(4) .anchorbox {
+  position: absolute;
+  bottom: 0;
+  left: 70px;
+  margin-bottom: 20px;
+  align-items: center;
+}
+.service .two .card:nth-child(4) .anchorbox .checkbox {
+  width: 15px;
+  height: 15px;
+  background: #E6BC13;
+}
+.service .two .card:nth-child(4) .anchorbox a {
+  font-family: "Heebo", sans-serif;
+  font-size: 17px;
+  font-weight: 800;
+  color: #000000;
+  line-height: 25px;
+  text-decoration: none;
+  margin-left: 12px;
+}
+.service .two .card:nth-child(5) {
+  background: rgb(255, 255, 255);
+  box-shadow: 0px 0px 86px 63px #F9F9FB; /*offset-x offset-y blur-radius spread-radius color;*/
+  position: relative;
+}
+.service .two .card:nth-child(5) .box {
+  position: relative;
+  background: #aef6dd;
+  width: 95px;
+  height: 132px;
+  left: 75px;
+}
+.service .two .card:nth-child(5) .imgbox {
+  position: static;
+  margin-top: -50px;
+  margin-left: 25%;
+  transform: translate(-30%);
+  width: 150px;
+  height: 150px;
+  padding: 30px;
+  border-radius: 50%;
+  background: #09d580;
+}
+.service .two .card:nth-child(5) .imgbox img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.service .two .card:nth-child(5) .textbox h2 {
+  font-family: "Heebo", sans-serif;
+  font-size: 26px;
+  font-weight: 500;
+  color: #000000;
+  line-height: 38px;
+  margin-left: 70px;
+  margin-top: 18px;
+  margin-bottom: 18px;
+}
+.service .two .card:nth-child(5) .textbox p {
+  font-family: "Heebo", sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  color: #000000;
+  line-height: 25px;
+  margin-left: 70px;
+  width: 280px;
+  margin-bottom: 75px;
+}
+.service .two .card:nth-child(5) .anchorbox {
+  position: absolute;
+  bottom: 0;
+  left: 70px;
+  margin-bottom: 20px;
+  align-items: center;
+}
+.service .two .card:nth-child(5) .anchorbox .checkbox {
+  width: 15px;
+  height: 15px;
+  background: #09d580;
+}
+.service .two .card:nth-child(5) .anchorbox a {
+  font-family: "Heebo", sans-serif;
+  font-size: 17px;
+  font-weight: 800;
+  color: #000000;
+  line-height: 25px;
+  text-decoration: none;
+  margin-left: 12px;
+}
+.service .two .card:nth-child(6) {
+  background: rgb(255, 255, 255);
+  box-shadow: 0px 0px 86px 63px #F9F9FB; /*offset-x offset-y blur-radius spread-radius color;*/
+  position: relative;
+}
+.service .two .card:nth-child(6) .box {
+  position: relative;
+  background: rgba(168, 248, 249, 0.9960784314);
+  width: 95px;
+  height: 132px;
+  left: 75px;
+}
+.service .two .card:nth-child(6) .imgbox {
+  position: static;
+  margin-top: -50px;
+  margin-left: 25%;
+  transform: translate(-30%);
+  width: 150px;
+  height: 150px;
+  padding: 30px;
+  border-radius: 50%;
+  background: rgba(7, 244, 248, 0.9960784314);
+}
+.service .two .card:nth-child(6) .imgbox img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.service .two .card:nth-child(6) .imgbox #img6 {
+  filter: sepia(100%) hue-rotate(180deg) saturate(200%);
+}
+.service .two .card:nth-child(6) .textbox h2 {
+  font-family: "Heebo", sans-serif;
+  font-size: 26px;
+  font-weight: 500;
+  color: #000000;
+  line-height: 38px;
+  margin-left: 70px;
+  margin-top: 18px;
+  margin-bottom: 18px;
+}
+.service .two .card:nth-child(6) .textbox p {
+  font-family: "Heebo", sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  color: #000000;
+  line-height: 25px;
+  margin-left: 70px;
+  width: 280px;
+  margin-bottom: 75px;
+}
+.service .two .card:nth-child(6) .anchorbox {
+  position: absolute;
+  bottom: 0;
+  left: 70px;
+  margin-bottom: 20px;
+  align-items: center;
+}
+.service .two .card:nth-child(6) .anchorbox .checkbox {
+  width: 15px;
+  height: 15px;
+  background: rgba(7, 244, 248, 0.9960784314);
+}
+.service .two .card:nth-child(6) .anchorbox a {
+  font-family: "Heebo", sans-serif;
+  font-size: 17px;
+  font-weight: 800;
+  color: #000000;
+  line-height: 25px;
+  text-decoration: none;
+  margin-left: 12px;
+}
+
+.about {
+  background-image: url(../images/about-me-bg.png);
+  position: relative;
+}
+.about #sekel {
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  transform: translate(-50%);
+}
+.about .left {
+  margin-top: 78px;
+}
+.about .left h5 {
+  font-family: "Rubik", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: rgb(238, 95, 56);
+  line-height: 28.44px;
+}
+.about .left h2 {
+  font-family: "Heebo", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  color: #000000;
+  line-height: 70px;
+  margin: 32px 0;
+}
+.about .left h1 {
+  font-family: "Rubik", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  color: rgb(238, 95, 56);
+  line-height: 42px;
+  margin-bottom: 42px;
+}
+.about .left .details {
+  font-family: "Rubik", sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  color: #000000;
+  line-height: 20px;
+}
+.about .left .details .details-left h6 {
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+.about .left .details .details-right h6 {
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+.about .right {
+  margin-top: 92px;
+  margin-bottom: 45px;
+  z-index: 5;
+}
+.about .right img {
+  margin-bottom: 50px;
+}
+.about .right .heading-one {
+  position: relative;
+  left: 30%;
+}
+.about .right .heading-one h1 {
+  font-family: "Heebo", sans-serif;
+  font-size: 80px;
+  font-weight: 700;
+  color: rgb(238, 95, 56);
+  line-height: 117px;
+  position: relative;
+  left: 75px;
+  margin-bottom: 0;
+}
+.about .right .heading-one h1 .plus-icon {
+  position: absolute;
+  top: 8px;
+  left: 63px;
+}
+.about .right .heading-one h2 {
+  font-family: "Heebo", sans-serif;
+  font-size: 80px;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  line-height: 117px;
+  position: absolute;
+  top: 0;
+  left: 68px;
+  -webkit-text-stroke: 2px rgb(238, 95, 56);
+  margin-bottom: 0;
+}
+.about .right .heading-one h2 .plus-icon {
+  position: absolute;
+  top: 8px;
+  left: 65px;
+}
+.about .right .heading-one h4 {
+  font-family: "Heebo", sans-serif;
+  font-size: 32px;
+  font-weight: 800;
+  color: #000000;
+  line-height: 44px;
+}
+
+.dark-log {
+  margin-top: 73px;
+  margin-bottom: 138px;
+}
+.dark-log .row {
+  text-align: center;
+}
+.dark-log .row .bor {
+  border-bottom: 2px solid #DDDDDD;
+  border-right: 2px solid #DDDDDD;
+  padding: 76px 0;
+}
+.dark-log .row .bor img:hover {
+  filter: grayscale(100%) brightness(90%) contrast(100%);
+  cursor: pointer;
+}
+.dark-log .row .bor:nth-child(4n) {
+  border-right: none;
+}
+.dark-log .row .bor:nth-child(n+5) {
+  border-bottom: none;
+}
+
+.education {
+  margin-bottom: 101px;
+}
+.education .left {
+  margin-bottom: 41px;
+}
+.education .left h3 {
+  font-family: "Rubik", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  color: rgb(238, 95, 56);
+  line-height: 26px;
+  margin-bottom: 60px;
+}
+.education .left h1 {
+  font-family: "Heebo", sans-serif;
+  font-size: 53px;
+  font-weight: 800;
+  color: #000000;
+  line-height: 63px;
+}
+.education .right {
+  position: relative;
+}
+.education .right p {
+  font-family: "Rubik", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  color: #000000;
+  line-height: 28px;
+  width: 515px;
+  position: absolute;
+  bottom: 30%;
+  right: 0;
+}
+.education .left1 {
+  position: relative;
+}
+.education .left1 #tree-retagel {
+  position: absolute;
+  top: 25px;
+  left: 0;
+  height: 285%;
+}
+.education .left1 .details {
+  margin-bottom: 15px;
+}
+.education .left1 .educationLeft {
+  padding: 40px 40px;
+  height: fit-content;
+  background: rgb(238, 95, 56);
+  border: 2px solid rgb(238, 95, 56);
+  border-radius: 50%;
+  position: relative;
+  margin-left: 80px;
+  display: inline-block;
+  margin-top: 15px;
+}
+.education .left1 .educationLeft img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.education .left1 .toper {
+  position: relative;
+  margin-left: 80px;
+}
+.education .left1 .toper h5 {
+  font-family: "Heebo", sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  color: #000000;
+  line-height: 58px;
+}
+.education .left1 .toper a {
+  font-family: "Rubik", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: rgb(238, 95, 56);
+  line-height: 25px;
+  padding: 7px 20px;
+  text-decoration: none;
+  background: #FCE5DF;
+  border: 1px solid rgb(238, 95, 56);
+  border-radius: 50px;
+  align-self: center;
+  transition: 0.4s ease-in;
+  margin-left: 30px;
+  position: absolute;
+  top: 5px;
+  right: 100px;
+}
+.education .left1 .toper a:hover {
+  color: rgb(255, 255, 255);
+  background: rgb(238, 95, 56);
+}
+.education .left1 p {
+  font-family: "Heebo", sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  color: #000000;
+  line-height: 25px;
+  width: 436px;
+  margin-left: 80px;
+  margin-bottom: 0;
+}
+.education .left1 .under {
+  margin-top: 30px;
+  margin-left: 80px;
+  position: relative;
+}
+.education .left1 .under i {
+  position: absolute;
+  top: 10px;
+  left: 0;
+}
+.education .left1 .under p {
+  font-family: "Heebo", sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  color: rgb(238, 95, 56);
+  line-height: 25px;
+  margin-bottom: 0;
+}
+
+.skills {
+  margin-top: 101px;
+  margin-bottom: 140px;
+}
+.skills .one {
+  margin-bottom: 120px;
+}
+.skills .one .left h3 {
+  font-family: "Rubik", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  color: rgb(238, 95, 56);
+  line-height: 25px;
+}
+.skills .one .left h1 {
+  font-family: "Heebo", sans-serif;
+  font-size: 48px;
+  font-weight: 500;
+  color: #000000;
+  line-height: 54px;
+  margin-top: 37px;
+}
+.skills .one .right {
+  position: relative;
+}
+.skills .one .right p {
+  font-family: "Heebo", sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  color: #000000;
+  line-height: 28px;
+  width: 470px;
+  position: absolute;
+  bottom: 15%;
+  right: 0;
+}
+.skills .two {
+  row-gap: 56px;
+}
+.skills .two h6 {
+  font-family: "Heebo", sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  color: #000000;
+  line-height: 28px;
+  margin-bottom: 15px;
+}
+.skills .two .line {
+  width: 100%;
+  height: 15px;
+  background: #E5E7EB;
+  border-radius: 60px;
+}
+.skills .two .line .parcentage1 {
+  width: 60%;
+  height: 15px;
+  background: rgb(238, 95, 56);
+  border-radius: 60px;
+  position: relative;
+}
+.skills .two .line .parcentage1 i {
+  position: absolute;
+  bottom: 25px;
+  right: -10%;
+}
+.skills .two .line .parcentage1 p {
+  font-family: "Heebo", sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+  line-height: 28px;
+  position: absolute;
+  top: -54px;
+  right: -25px;
+}
+.skills .two .line .parcentage2 {
+  width: 90%;
+  height: 15px;
+  background: rgb(238, 95, 56);
+  border-radius: 60px;
+  position: relative;
+}
+.skills .two .line .parcentage2 i {
+  position: absolute;
+  bottom: 22px;
+  right: -6%;
+}
+.skills .two .line .parcentage2 p {
+  font-family: "Heebo", sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+  line-height: 28px;
+  position: absolute;
+  top: -50px;
+  right: -22px;
+}
+.skills .two .line .parcentage3 {
+  width: 75%;
+  height: 15px;
+  background: rgb(238, 95, 56);
+  border-radius: 60px;
+  position: relative;
+}
+.skills .two .line .parcentage3 i {
+  position: absolute;
+  bottom: 22px;
+  right: -8%;
+}
+.skills .two .line .parcentage3 p {
+  font-family: "Heebo", sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+  line-height: 28px;
+  position: absolute;
+  top: -51px;
+  right: -24px;
+}
+.skills .two .line .parcentage4 {
+  width: 75%;
+  height: 15px;
+  background: rgb(238, 95, 56);
+  border-radius: 60px;
+  position: relative;
+}
+.skills .two .line .parcentage4 i {
+  position: absolute;
+  bottom: 22px;
+  right: -8%;
+}
+.skills .two .line .parcentage4 p {
+  font-family: "Heebo", sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+  line-height: 28px;
+  position: absolute;
+  top: -50px;
+  right: -25px;
+}
+.skills .two .line .parcentage5 {
+  width: 90%;
+  height: 15px;
+  background: rgb(238, 95, 56);
+  border-radius: 60px;
+  position: relative;
+}
+.skills .two .line .parcentage5 i {
+  position: absolute;
+  bottom: 22px;
+  right: -7%;
+}
+.skills .two .line .parcentage5 p {
+  font-family: "Heebo", sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+  line-height: 28px;
+  position: absolute;
+  top: -50px;
+  right: -26px;
+}
+.skills .two .line .parcentage6 {
+  width: 60%;
+  height: 15px;
+  background: rgb(238, 95, 56);
+  border-radius: 60px;
+  position: relative;
+}
+.skills .two .line .parcentage6 i {
+  position: absolute;
+  bottom: 22px;
+  right: -10%;
+}
+.skills .two .line .parcentage6 p {
+  font-family: "Heebo", sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+  line-height: 28px;
+  position: absolute;
+  top: -50px;
+  right: -25px;
+}
+
+.quality {
+  background-image: url(../images/quality-bg-img.png);
+  padding-top: 100px;
+  padding-bottom: 95px;
+}
+.quality .one .left h3 {
+  font-family: "Rubik", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  color: rgb(238, 95, 56);
+  line-height: 25px;
+  margin-bottom: 31px;
+}
+.quality .one .left h1 {
+  font-family: "Heebo", sans-serif;
+  font-size: 48px;
+  font-weight: 500;
+  color: #000000;
+  line-height: 54px;
+  margin-top: 37px;
+}
+.quality .one .right {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+.quality .one .right p {
+  font-family: "Heebo", sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  color: #000000;
+  line-height: 28px;
+  width: 470px;
+}
+.quality .two {
+  margin-bottom: 72px;
+}
+.quality .two ul {
+  list-style: none;
+  display: flex;
+  column-gap: 60px;
+  justify-content: center;
+  margin-top: 60px;
+}
+.quality .two ul li:nth-child(odd) {
+  font-family: "Rubik", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: #000000;
+  line-height: 28px;
+}
+.quality .two ul li:nth-child(even) {
+  font-family: "Rubik", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #000000;
+  line-height: 28px;
+}
+.quality .two ul li {
+  transition: 0.4s ease-in;
+}
+.quality .two ul li:hover {
+  color: rgb(238, 95, 56);
+  cursor: pointer;
+}
+.quality .three {
+  row-gap: 70px;
+}
+.quality .three .details {
+  display: flex;
+  justify-content: center;
+}
+
+.me {
+  margin-top: 104px;
+  margin-bottom: 71px;
+  text-align: center;
+}
+.me .div h4 {
+  font-family: "Heebo", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: rgb(238, 95, 56);
+  line-height: 28px;
+}
+.me .div h2 {
+  font-family: "Heebo", sans-serif;
+  font-size: 48px;
+  font-weight: 800;
+  color: #000000;
+  line-height: 28px;
+  margin-top: 27px;
+  margin-bottom: 62px;
+}
+.me .div .fivestar {
+  display: flex;
+  column-gap: 18px;
+  justify-content: center;
+}
+.me .div .pra {
+  display: flex;
+  justify-content: center;
+  margin-top: 37px;
+  margin-bottom: 67px;
+}
+.me .div .pra p {
+  font-family: "Rubik", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  color: #000000;
+  line-height: 32px;
+  width: 658px;
+}
+.me .div h3 {
+  font-family: "Rubik", sans-serif;
+  font-size: 24px;
+  font-weight: 800;
+  color: #000000;
+  line-height: 32px;
+  margin-top: 21px;
+  margin-bottom: 5px;
+}
+.me .div p {
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #878787;
+  line-height: 32px;
+}
+.me .div .minus i {
+  margin-left: 7px;
+  transition: 0.4s ease-in;
+}
+.me .div .minus i:hover {
+  cursor: pointer;
+  background: rgb(238, 95, 56) !important;
+}
+
+.work {
+  background-image: url(../images/work-bg-img.png);
+  padding-top: 101px;
+  padding-bottom: 129px;
+}
+.work .left {
+  padding-bottom: 52px;
+}
+.work .left h3 {
+  font-family: "Rubik", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  color: rgb(238, 95, 56);
+  line-height: 29px;
+}
+.work .left h2 {
+  font-family: "Heebo", sans-serif;
+  font-size: 48px;
+  font-weight: 500;
+  color: #000000;
+  line-height: 70px;
+  margin-top: 32px;
+  margin-bottom: 16px;
+}
+.work .left p {
+  font-family: "Heebo", sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  color: #000000;
+  line-height: 28px;
+  width: 445px;
+  margin-bottom: 46px;
+}
+.work .left input {
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0);
+  line-height: 19px;
+  padding: 8px 80px 10px 20px;
+  border: none;
+  margin-bottom: 32px;
+}
+.work .left input::placeholder {
+  color: #000000;
+}
+.work .left .message {
+  padding: 22px 0 200px 25px;
+  margin-bottom: 42px;
+}
+.work .left button {
+  font-family: "Rubik", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  line-height: 29px;
+  background: rgb(238, 95, 56);
+  border: 2px solid rgb(238, 95, 56);
+  border-radius: 50px;
+  padding: 17px 40px 16px 44px;
+  transition: 0.4s ease-in;
+}
+.work .left button:hover {
+  color: rgb(238, 95, 56);
+  background: rgba(0, 0, 0, 0);
+}
+.work .right {
+  position: relative;
+}
+.work .right .asdf {
+  position: absolute;
+  top: 10%;
+  left: 0;
+  row-gap: 96px;
+}
+.work .right .Left {
+  position: relative;
+  padding: 40px 40px;
+  height: fit-content;
+  background: rgb(238, 95, 56);
+  border: 2px solid rgb(238, 95, 56);
+  border-radius: 50%;
+  position: relative;
+  margin-left: 80px;
+  display: inline-block;
+  margin-top: 15px;
+}
+.work .right .Left img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.work .right h3 {
+  font-family: "Heebo", sans-serif;
+  font-size: 26px;
+  font-weight: 800;
+  color: #000000;
+  line-height: 38px;
+  margin-bottom: 5px;
+}
+.work .right p {
+  font-family: "Rubik", sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  color: #000000;
+  line-height: 26px;
+  margin-bottom: 5px;
+}
+.work .map {
+  text-align: center;
+}
+
+.updates {
+  margin-top: 100px;
+  margin-bottom: 51px;
+}
+.updates .one {
+  margin-bottom: 59px;
+}
+.updates .one .left h3 {
+  font-family: "Rubik", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  color: rgb(238, 95, 56);
+  line-height: 28px;
+  margin-bottom: 23px;
+}
+.updates .one .left h1 {
+  font-family: "Heebo", sans-serif;
+  font-size: 51px;
+  font-weight: 500;
+  color: #000000;
+  line-height: 70px;
+}
+.updates .one .right {
+  display: flex;
+  justify-content: end;
+  position: relative;
+}
+.updates .one .right p {
+  font-family: "Rubik", sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  color: #000000;
+  line-height: 25px;
+  width: 500px;
+  position: absolute;
+  top: 30%;
+  right: 0;
+}
+.updates .two {
+  justify-content: space-between;
+}
+.updates .two .custom-colum {
+  flex: 0 0 31%; /* flex-grow:0, flex:-shrink:0, flex-basis:31% */
+}
+.updates .two .custom-colum .card .details {
+  padding-left: 20px;
+  padding-top: 26px;
+  padding-bottom: 47px;
+}
+.updates .two .custom-colum .card .details a {
+  font-family: "Rubik", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  line-height: 16px;
+  text-decoration: none;
+  padding: 7px 27px;
+  background: rgb(238, 95, 56);
+}
+.updates .two .custom-colum .card .details h3 {
+  font-family: "Heebo", sans-serif;
+  font-size: 26px;
+  font-weight: 800;
+  color: #000000;
+  line-height: 36px;
+  margin-top: 15px;
+  margin-bottom: 21px;
+}
+.updates .two .custom-colum .card .details p {
+  font-family: "Rubik", sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  color: #000000;
+  line-height: 20px;
+}
+
+.footer {
+  background-image: url(../images/footer-bg-img.png);
+}
+.footer .left a {
+  font-family: "Heebo", sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  color: #000000;
+  line-height: 25px;
+  text-decoration: none;
+  padding-top: 56px;
+  padding-bottom: 55px;
+  padding-left: 40px;
+  display: inline-block;
+}
+.footer .left a span {
+  font-family: "Heebo", sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  color: rgb(238, 95, 56);
+  line-height: 25px;
+}
+.footer .right {
+  display: flex;
+}
+.footer .right a {
+  font-family: "Heebo", sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  color: #000000;
+  line-height: 37px;
+  text-decoration: none;
+  display: inline-block;
+  padding-top: 55px;
+}
+
+/*# sourceMappingURL=compile.css.map */

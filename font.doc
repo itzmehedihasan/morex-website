@@ -1,0 +1,14 @@
+            sass --watch "scss/style.scss:compile/compile.css"
+
+
+
+            sass --watch "scss/responsive.scss:compile/responsive.css"
+
+
+
+// font
+Poppins, sans-serif;
+Rubik, sans-serif;
+Heebo, sans-serif;
+ 
+boostrapFile

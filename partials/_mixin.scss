@@ -1,0 +1,75 @@
+// Define breakpoint variables for easy adjustment
+$breakpoint-mobile: 320px;
+$breakpoint-sm: 575px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 991px;
+$breakpoint-xl: 1200px;
+$breakpoint-xxl: 1400px;
+$breakpoint-xxxl: 1600px;
+
+// Responsive mixin with variable-based breakpoints
+@mixin responsive ($breakpoint){
+        @if $breakpoint == mobile {
+          @media (min-width: #{$breakpoint-mobile}) and (max-width:574.99px){
+            @content;
+          }
+        }
+        @else if $breakpoint == sm {
+          @media (min-width: #{$breakpoint-sm}) and (max-width:767.99px){
+            @content;
+          }
+        }
+        @else if $breakpoint == md {
+          @media (min-width: #{$breakpoint-md}) and (max-width:990.99px){
+            @content;
+          }
+        }
+        @else if $breakpoint == lg {
+          @media (min-width: #{$breakpoint-lg}) and (max-width:1199.99px){
+            @content;
+          }
+        }
+        @else if $breakpoint == xl {
+          @media (min-width: #{$breakpoint-xl}) and (max-width:1399.99px){
+            @content;
+          }
+        }
+        @else if $breakpoint == xxl {
+          @media (min-width: #{$breakpoint-xxl}) and (max-width:1599.99px){
+            @content;
+          }
+        }
+        @else if $breakpoint == xxl {
+          @media (min-width: #{$breakpoint-xxl}) and (max-width:1599.99px){
+            @content;
+          }
+        }
+        @else if $breakpoint == xxxl {
+          @media (min-width: #{$breakpoint-xxxl}) and (max-width:1799.99px){
+            @content;
+          }
+        }
+      }
+
+// ========== heading
+@mixin heading($ff, $fs, $fw, $c, $lh){
+  font-family: $ff;
+  font-size: $fs;
+  font-weight: $fw;
+  color: $c;
+  line-height: $lh;
+}
+
+// ========== button
+      @mixin button($ff, $fs, $fw, $c, $bgc, $b, $bc, $br, $p, $t) {
+        font-family: $ff;
+        font-size: $fs;
+        font-weight: $fw;
+        color: $c;
+        background-color: $bgc;
+        border: $b;
+        border-color: $bc;
+        border-radius: $br;
+        padding: $p;
+        transition: $t;
+}
