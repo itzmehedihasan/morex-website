@@ -4,6 +4,7 @@
 
             sass --watch "scss/responsive.scss:compile/responsive.css"
 
+<<<<<<< HEAD
 
 
 // font
@@ -12,3 +13,7 @@ Rubik, sans-serif;
 Heebo, sans-serif;
  
 boostrapFile
+=======
+    		 boostrap/sass/responsive
+ 
+>>>>>>> a211b5f6be6a2cd23a1e6e74a05cd25a75944edf
